@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+.imdb-head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    color: #ffffff;
+    margin: 2rem;
+}
+.search-here{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+.search-bar{
+    margin-left: 10px;
+    width: 30%;
+    max-height: 60px;
+    font-size: 20px;
+    border-color: aquamarine;
+    border-radius: 5px;
+}
+.search-bar:focus{
+    outline: none;
+}
+.show-fav{
+    color: #ffffff;
+}
+.search-feed{
+
+    padding: 2px;
+    max-width: 30%;
+    margin-left: 29.5%;
+    max-height: 500px;
+    overflow-y: scroll;
+    background-color: black;
+    border-radius:20px;
+}
+.search-feed .search-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    -webkit-transition: background-color 200ms ease;
+    -o-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+    cursor: pointer;
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
+}
+.search-feed .search-item:hover{
+    background-color: rgb(35, 66, 55);
+}
+.right-search{
+    margin: 10px;
+}
+.left-search{
+    border-radius: 5px;
+    margin: 10px;
+}
+.left-search .poster{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.right-search .movie-name{
+    color: white;
+    text-align: right;
+}
+.right-search .movie-year{
+    color: white;
+    text-align: right;
+}
+.right-search .add-to-fav-btn{
+    margin-bottom: 3px;
+    border-radius: 4px;
+    border-color: blueviolet;
+    background-color: rgb(171, 156, 185);
+    float: right;
+}
+#show-fav {
+    padding: 2px;
+    max-width: 50%;
+    margin: 5%;
+    max-height: 500px;
+    background-color: rgb(86, 63, 63);
+    border-radius:20px;
+    display: block;
+    visibility: hidden;
+}
+.show-fav .fav-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    -webkit-transition: background-color 200ms ease;
+    -o-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+    cursor: pointer;
+    border-style: outset;
+    border-color: black;
+    border-radius: 20px;
+}
+.show-fav .fav-items:hover{
+    background-color: rgb(35, 66, 55);
+}
+.fav-title {
+    background-color: rgb(50, 19, 77);
+    color: #f9f8fd;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 4px;
+    display: block;
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+/* js related class */
+.hide-search-list{
+    display: none;
+}

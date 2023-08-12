@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>IMDB Clone</title>
+        <link rel="stylesheet"  href="index.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <p class="imdb-head">IMDb</p>
+            <span class="search-here">Search Here 🕵️‍♀️</span>
+            <input type="text" placeholder="Search here..." class="search-bar" 
+            id="search-bar" 
+            onkeyup="searchMovie()" 
+            onclick = "searchMovie()">
+        </header>
+        <div class="search-feed" id="search-feed">
+            <!-- <div class="search-item" id="search-item">
+                <span class="left-search" id="left-search">
+                    <img alt="poster" class="poster" src="">
+                </span>
+                <span class="right-search" id="right-search">
+                    <p class="movie-name">Kanchanna</p>
+                    <p class="movie-year">2012</p>
+                    <button class="add-to-fav-btn" type="submit">Add to Fav</button>
+                </span>
+            </div> -->
+            <!-- </div> -->
+        </div>
+        <p class="fav-title">Your Favourites</p>
+        <div class="show-fav" id="show-fav">
+
+        </div>
+
+        <script src="index.js">
+        </script>
+    </body>
+</html>
